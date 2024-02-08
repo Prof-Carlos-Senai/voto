@@ -1,0 +1,25 @@
+body{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+input, button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: green;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+button{
+    cursor: pointer;
+}
